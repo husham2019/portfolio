@@ -1,9 +1,10 @@
 # Portfolio
 This to learn Git, Github, HTML, CSS by building a portfolio
 # Technologies 
-* HTML
-* CSS
-* JavaScript
-* License
-* Author
-[Portfolio](https://www.google.com)
+- HTML
+- CSS
+- JavaScript
+# License
+# Author
+# DEMO
+[Portfolio]( https://husham2019.github.io/portfolio/)
