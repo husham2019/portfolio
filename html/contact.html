@@ -1,29 +1,55 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Portfolio</title>
+  </head>
 
-<head>
-    <title> Portfolio </title>
-</head>
+  <body>
+    <header>
+      <ul>
+        <li><a href="../index.html">Home </a></li>
+        <li><a href="./skills.html">skills </a></li>
+        <li><a href="./projects.html">Projects </a></li>
+        <li><a href="./contact.html">Contact </a></li>
+      </ul>
+    </header>
 
-<body>
-        <header>
-                <ul>
-                    <li> <a href = "../index.html">Home </a></li>
-                    <li> <a href = "./skills.html">skills </a></li>
-                    <li> <a href = "./projects.html">Projects </a> </li>
-                    <li> <a href = "./contact.html">Contact </a> </li>  
-                </ul>
-            </header>
-    
     <h1>Contact Me</h1>
-    <footer>
-            <ul>
-                    <li> <a href = "#">Github </a></li>
-                    <li> <a href = "#">LinkedIn </a></li>
-                    <li> <a href = "#">Medium </a> </li>
-                    <li> <a href = "#">Twitter</a> </li>  
-                </ul>
-    </footer>
-</body>
 
+    <form>
+      <label> First Name </label><input type="text" /> <br />
+    
+      <label> Last Name </label><input type="text" /> <br />
+      <label> Age: </label><input type="number" /> <br />
+      <label> date: </label><input type="date" /> <br />
+      <label> Gender: </label><input type="number" /> <br />
+      <label> Color: </label> <input type="color" /> <br />
+      <input type="radio" name = "gender" value="male"/> Male
+      <input type="radio" name = "gender" value="female"/> Female <br />
+      <label>Country:</label>
+      <select name="country" disabled>
+          <option value="countryA" >Country A</option>
+          <option value="countryB" selected>Country B</option>
+          <option value="countryC">Country C</option>
+          <option value="countryD" >Country D</option>
+          <option value="countryE" >Country E</option>
+      </select> <br />
+      <label>Email:</label>
+      <input type="email" /> <br />
+      <label>Password:</label>
+      <input type="password" /> <br />
+      
+      
+
+    </form>
+
+    <footer>
+      <ul>
+        <li><a href="#">Github </a></li>
+        <li><a href="#">LinkedIn </a></li>
+        <li><a href="#">Medium </a></li>
+        <li><a href="#">Twitter</a></li>
+      </ul>
+    </footer>
+  </body>
 </html>
