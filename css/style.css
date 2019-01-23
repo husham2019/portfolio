@@ -1,0 +1,26 @@
+img {
+  width: 30%;
+}
+
+/*====Header==== */
+
+.header-wrapper {
+  display: inline-flex;
+}
+
+.header-wrapper div {
+  width: 33%;
+  height: 200px;
+  border: 2px solid green;
+}
+
+.header-nav li {
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+
+.header-nav li a{
+   text-decoration: none;
+    
+}
