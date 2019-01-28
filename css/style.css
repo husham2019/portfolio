@@ -1,5 +1,5 @@
 img {
-  width: 30%;
+  width: 33%;
 }
 
 /*====Header==== */
@@ -10,7 +10,7 @@ img {
 
 .header-wrapper div {
   width: 33%;
-  height: 100px;
+  
   border: 2px solid green;
 }
 
