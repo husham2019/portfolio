@@ -23,6 +23,20 @@ img {
   text-decoration: none;
 }
 
+a:link {
+color: yellow;
+}
+
+a:visited {
+  color: green;
+  }
+
+  a:hover {
+    background-color: rgba(0, 0, blue, 0);
+    padding: 2px 3px 4px 5px;
+
+  }
+
 span {
   color: blue;
 }
@@ -37,3 +51,24 @@ table
   width: 80%;
   margin: auto;
 }
+
+footer {
+  background: lightblue;
+}
+
+i {
+  font-size: 40px;
+}
+
+.fa-github {
+  color: yellow;
+}
+
+.para {
+  color: red;
+}
+
+#para1 {
+  background-color: green;
+}
+
